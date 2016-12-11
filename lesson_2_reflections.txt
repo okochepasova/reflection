@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	A new folder appears named '.git'. So you can track you changes to the 
+	files you're working on.
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+	
