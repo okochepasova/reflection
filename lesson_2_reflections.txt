@@ -6,4 +6,36 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the 
 repository? What value do you think it offers?
 
-	
+	.
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+	You can see what changes you made since the last commit and you cand stage 
+	some changes for the next commit, even if you did more than necessary.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+	.
+
+How do the diagrams help you visualize the branch structure?
+
+	.
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+	Code that's present in both branches, and new code that wasn't in the 
+	commit from where the two paths branch off, is kept. Code that was present 
+	in the original commit but is missing in either branch is not kept. The 
+	resulting code that is kept, is the result of the merge.
+
+	We represent it that way so that wee can see where the paths branched 
+	off, what work was done to either branch, and where they merge back 
+	together.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+	.
